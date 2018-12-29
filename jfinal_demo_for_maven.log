@@ -1,0 +1,8 @@
+
+2018-12-29 13:56:18
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: port: 8081 already in use!
+java.lang.IllegalStateException: port: 8081 already in use!
+	at com.jfinal.server.JettyServerForIDEA.doStart(JettyServerForIDEA.java:89)
+	at com.jfinal.server.JettyServerForIDEA.start(JettyServerForIDEA.java:72)
+	at com.jfinal.core.JFinal.start(JFinal.java:174)
+	at common.runserver.main(runserver.java:13)
